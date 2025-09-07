@@ -1,0 +1,47 @@
+ *{ 
+    box-sizing: border-box;
+    font-style: calibri;
+    padding: 1em 0;
+    text-align: center;
+   
+ }
+ header {
+        padding: 1em 0;
+    text-align: center;
+    border: 1px solid #0a0a0a;
+    box-shadow: 0 4px 8px black
+    
+     
+ }
+ .aboutMe {         /* Center text, I prefer this look */
+    text-align: center;
+    list-style-position: inside; /* move bullet points*/
+    border: 1px solid #0a0a0a;
+    box-shadow: 0 4px 8px black
+ }
+ h1 {
+    text-align: center; /* Center this header separately from projects*/
+    padding: 1em 0;
+    text-align: center;
+    border: 1px solid #0a0a0a;
+    box-shadow: 0 4px 8px black
+ }
+ .projects {
+    padding: 1em 0;
+    text-align: center;
+    border: 1px solid #0a0a0a;
+    box-shadow: 0 4px 8px black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-bottom: 10em;
+ }
+.projects img { /* Ensure images fit within their containers */
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+.contact {
+    text-align: center;
+    margin: 2em 0;
+}
